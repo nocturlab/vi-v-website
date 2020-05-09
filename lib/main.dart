@@ -11,7 +11,7 @@ class Nocturlab extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green
       ),
-      home: HomeView()
+      home: HomeView(title: 'Vi-v Home page')
     );
   }
   

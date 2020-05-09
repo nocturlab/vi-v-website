@@ -6,6 +6,10 @@ class DevblogDetails extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Container(
+      decoration: BoxDecoration(
+        color: Color.fromRGBO(255, 255, 255, 0.4),
+        borderRadius: BorderRadius.circular(5)
+      ),
       width: 1000,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -23,7 +27,7 @@ class DevblogDetails extends StatelessWidget{
 
             Vi-v is prononced /vˈaɪ.vi/. It's like Ivy but with a V before.
             You can became a member of the community by joining the Discord Server''',
-            style: TextStyle(fontSize: 21, height: 1.7)
+            style: TextStyle(fontSize: 21, height: 1.7, color: Colors.white)
           )
         ],
       ),
